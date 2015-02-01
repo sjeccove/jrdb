@@ -6,7 +6,7 @@
 저장 관리할수 있는 스크립트 라이브러이 입니다.
 
 
-version 1.0.0
+version 1.0.0 (wiki page 참조)
 
 - create
 
