@@ -9,8 +9,10 @@
 version 1.0.0
 
 - create
+
   예) Sje.jrdb.create().table("db1.tbl").columns([["id",false],["column1",true],["column2",true],["column3",false],["column4",false]]).commit();
 
 - insert
+
   예) Sje.jrdb.insert().into("db1.tbl").columns("id","column3","column4").values("12","23","33").commit();
 
