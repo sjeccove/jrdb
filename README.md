@@ -16,3 +16,6 @@ version 1.0.0 (wiki page 참조)
 
   예) Sje.jrdb.insert().into("db1.tbl").columns("id","column3","column4").values("12","23","33").commit();
 
+- update
+
+  예) Sje.jrdb.update().table("db1.tbl").columns("id","column2").values("value1","value2").where("column4>=11").commit();
