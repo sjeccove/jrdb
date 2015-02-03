@@ -6,7 +6,7 @@
 저장 관리할수 있는 스크립트 라이브러이 입니다.
 
 
-version 1.0.0 (wiki page 참조)
+version 1.0.2 (wiki page 참조)
 
 - create
 
@@ -19,3 +19,11 @@ version 1.0.0 (wiki page 참조)
 - update
 
   예) Sje.jrdb.update().table("db1.tbl").columns("id","column2").values("value1","value2").where("column4>=11").commit();
+
+- select
+
+  예) Sje.jrdb.select().table("db1.tbl").columns("id","column2").where("column4>=11").commit();
+  
+- delete
+
+  예) Sje.jrdb.delete().table("db1.tbl").where("column4>=11").commit();
