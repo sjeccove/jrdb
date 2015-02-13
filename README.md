@@ -14,6 +14,11 @@ version 1.0.5
 - create
 
   예) Sje.jrdb.create().table("db1.tbl").columns([["id",false],["column1",true],["column2",true],["column3",false],["column4",false]]).commit();
+  
+      "db1" : database name
+      "tbl" : database table name
+      "id", "column1", "column2", "column3", "column4" : table column name
+      "false", "true" : is null
 
 - insert
 
