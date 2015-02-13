@@ -1,12 +1,15 @@
 # jrdb
 
-자바스트립트 관계형 데이터베이스(JAVASCRIPT RELATIONAL DATABASE)
+# 자바스트립트 관계형 데이터베이스(JAVASCRIPT RELATIONAL DATABASE)
 
-자바스트립트를 이용한 어플리케이션 개발시 관계형 데이터베이스 형태로 데이터를
-저장 관리할수 있는 스크립트 라이브러이 입니다.
+# 개요
+
+SQL DB 없이 Web Storage 중 localstorage를 이용하여 관계형 DB를 구현함.
 
 
-version 1.0.2 (wiki page 참조)
+# 사용법
+
+version 1.0.5
 
 - create
 
@@ -27,3 +30,8 @@ version 1.0.2 (wiki page 참조)
 - delete
 
   예) Sje.jrdb.delete().from("db1.tbl").where("column4>=11").commit();
+
+
+# 사양
+
+웹 프라우져 (IE, Safari, Firefox, Chrome..)
