@@ -14,16 +14,16 @@ version 1.0.2 (wiki page 참조)
 
 - insert
 
-  예) Sje.jrdb.insert().into("db1.tbl").columns("id","column3","column4").values("12","23","33").commit();
+  예) Sje.jrdb.insert().into("db1.tbl").columns("id,column3,column4").values("12,23,33").commit();
 
 - update
 
-  예) Sje.jrdb.update().table("db1.tbl").columns("id","column2").values("value1","value2").where("column4>=11").commit();
+  예) Sje.jrdb.update().table("db1.tbl").columns("id,column2").values("value1,value2").where("column4>=11").commit();
 
 - select
 
-  예) Sje.jrdb.select().table("db1.tbl").columns("id","column2").where("column4>=11").commit();
+  예) Sje.jrdb.select().from("db1.tbl").columns("id,column2").where("column4>=11").commit();
   
 - delete
 
-  예) Sje.jrdb.delete().table("db1.tbl").where("column4>=11").commit();
+  예) Sje.jrdb.delete().from("db1.tbl").where("column4>=11").commit();
